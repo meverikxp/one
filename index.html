@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Example</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Landing page." />
+        <meta name="Resource-type" content="Document" />
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="http://allfont.ru/css/?fonts=national-typewriter-light" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="css/owl.carousel.css" rel="stylesheet" />
+        <link href="css/owl.theme.css" rel="stylesheet" />
+        <style>
+
+            /* Style for our header texts
+            * --------------------------------------- */
+            h1{
+                font-size: 4em;
+                font-family: National;
+                color: #fff;
+                margin:0;
+                padding:40px 0 0 0;
+            }
+            .intro p{
+                color: #fff;
+                padding:40px 0 0 0;
+            }
+
+            /* Centered texts in each section
+            * --------------------------------------- */
+            .section{
+                text-align:center;
+            }
+
+
+            /* Bottom menu
+            * --------------------------------------- */
+            #infoMenu li a {
+                color: #fff;
+            }
+        </style>
+
+        <!--[if IE]>
+                <script type="text/javascript">
+                         var console = { log: function() {} };
+                </script>
+        <![endif]-->
+
+
+    </head>
+    <body>
+        <div class="bluebackround">                            
+        </div>
+        <div id="header">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid" id="menuitems">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <span class="navbar-header">
+
+                        <a class="navbar-toggle collapsed" href="#kontakt">KONTAKT</a>
+
+                        <a class="navbar-brand" href="/"> </a>
+                    </span>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" id="navbar-nav-menu">
+                            <li data-menuanchor="Home" data-menuclass="menu-green"><a href="#Home">SMARTERE</a></li>
+                            <li data-menuanchor="oppdatert" data-menuclass="menu-blue"><a href="#oppdatert">OPPDATERT</a></li>
+                            <li data-menuanchor="somlos" data-menuclass="menu-grey"><a href="#somlos">SØMLØS</a></li>
+                            <li data-menuanchor="kontakt" data-menuclass="menu-pure"><a href="#kontakt">KONTAKT</a></li>
+                        </ul>                        
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+
+        <div id="fullpage">
+            <div class="section " id="section0">
+                <div class="intro">
+                    <div class="image_first">
+
+                        <div class="darkdiv"></div>
+                        <div class="textblock">
+                            <h1>En smartere <br />ruteplanlegger</h1>
+                            <div class="simpletext">
+                                [En tekst om “Mange faktorer (vær, trafikk, arbeider på linje, gåavstand, forsinkelser, antall bytter etc) påvirker hva som er den beste reisemåten fra der du er. Ona har kunnskapen for å gi deg de beste kontekstuelle alternativene”]
+                            </div>
+                            <div class="navigation">
+                                <a href="#Home" class="circle_selected"></a>
+                                <a href="#oppdatert" class="circle_empty"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section" id="section6">
+                <div class="simpletext">
+                    [En tekst om “Mange faktorer (vær, trafikk, arbeider på linje, gåavstand, forsinkelser, antall bytter etc) påvirker hva som er den beste reisemåten fra der du er. Ona har kunnskapen for å gi deg de beste kontekstuelle alternativene”]
+                </div>
+                <div class="image">
+                    <img src="img/icons.jpg" alt="ona: icons" />
+                </div>
+            </div>
+
+            <div class="section" id="section1">
+                <div class="intro">
+                    <div class="textblock2">
+                        <h1>Alltid <br />oppdatert</h1>
+                        <div class="simpletext2">
+                            Noe om at det å være oppdatert i forhold til kontekst og kompleksitet er en stor ufordring, men at Ona har et lidenskapelig forhold til å gjøre den jobben for deg.
+                        </div>  
+                    </div>
+                    <div class="image">
+                        <img src="img/clock.png" alt="clock-small" />
+                    </div>
+                    <div class="navigation2">
+                        <a href="#Home" class="circle_selected"><img src="img/circle_empty.png" /></a>
+                        <div class="separ"></div>
+                        <a href="#somlos" class="circle_empty"><img src="img/circle_selected.png" /></a>
+                    </div>
+                    <div class="clockimg">
+                        <div id="carousel-1" class="owl-carousel">
+                            <div class="item" data-slide="1" data-slider="#carousel-1"><img src="img/clock.png" alt="Ona: Clock" /></div>
+                            <div class="item" data-slide="2" data-slider="#carousel-1"><img src="img/mobile-slide1.png" alt="Ona: notification"/></div>
+                            <div class="item" data-slide="0" data-slider="#carousel-1"><img src="img/mobile-slide2.png" alt="Ona: Alarm"/></div>
+                        </div>
+
+                    </div>
+                </div>                
+            </div>
+            <div class="section" id="section2">
+                <div class="image_two"></div>
+                <div class="mobile">
+                    <div class="fullbackground">                        
+                        <div class="image">
+                            <img src="img/trikk.png" width="463" height="226" alt="trikk"/>
+                            <div class="clearfix"></div>
+                            <div class="header_text">
+                                Ona iOs varslingsenter
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="section7">                
+                <div class="image_two"></div>
+                <div class="mobile">                    
+                    <div class="iphone">  
+                        <img src="img/iphone-bgr.png" alt="iphone"/>
+                        <div class="header_text">
+                            Ona i iOS varslingsenter
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section" id="section3">
+                <div id="carousel-2" class="owl-carousel">
+                    <div class="item" data-slide="1" data-slider="#carousel-2">                        
+                        <div class="image_3">
+
+                            <img src="img/plan.jpg" />
+
+                            <div class="link1 owl-page-item" data-slide="1">1</div>
+                            <div class="link2 owl-page-item" data-slide="2">2</div>
+                            <div class="link3 owl-page-item" data-slide="3">3</div>
+                        </div>
+                        <div class="section3_text1">
+                            <h3>En sømløs reise</h3>
+                            <span class="text">
+                                [En tekst om “Alltid oppdatert på den device du måtte ønske og lærer deg å kjenne gjennom bruk, og gir de beste forslagene og krever minimalt med interaksjon for å få den informasjonen du trenger”]’
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="item"  data-slide="2" data-slider="#carousel-2">                       
+
+                        <img src="img/seamless1.png" alt="Ona: seamless"/>
+                        <div class="section3_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+
+                    </div>
+
+                    <div class="item"  data-slide="3" data-slider="#carousel-2">                       
+
+                        <img src="img/seamless2.png" alt="Ona: seamless"/>
+                        <div class="section3_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+
+                    </div>
+
+                    <div class="item"  data-slide="0" data-slider="#carousel-2">                       
+
+                        <img src="img/seamless3.png" alt="Ona: seamless"/>
+                        <div class="section3_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mobile">
+
+                    <div class="text">
+                        <h1>En sømløs reise</h1>
+                        <div class="section3_text">
+                            [En tekst om “Alltid oppdatert på den device du måtte ønske og lærer deg å kjenne gjennom bruk, og gir de beste forslagene og krever minimalt med interaksjon for å få den informasjonen du trenger”]’
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/mobslide_1.png" width="242" height="503" alt="mobile-slide1"/>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="section8">
+                <div class="header">
+                    <div class="header_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                </div>
+                <div class="mobile">                    
+                    <div class="image">
+                        <img src="img/mobslide_2.png" width="242" height="503" alt="mobile-slide1"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="section4">
+                <div class="mobile">
+                    <div class="header">
+                        <div class="header_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/mobslide_3.png" width="242" height="503" alt="mobile-slide1"/>
+                    </div>
+                </div>
+                <div class="image_4"></div>
+            </div>
+
+            <div class="section" id="section5">
+                <div class="section5_text1">
+                    <h3>Mer om Ona:</h3>                    
+                </div>
+                <div class="section5_text2">
+                    <img src="img/chart.png" />
+                    <span class="text1">onatravel</span>
+                    <span class="text2">hello@ona.travel</span>
+                    <span class="text3">Følg vår blogg</span>
+                    <ul class="text4">
+                        <li>Nyhetsbrev</li>
+                        <li>Navn</li>
+                        <li>E-post</li>
+                        <li>+ MELD PÅ</li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    2015 © Ona<br />
+                        Tordenskiolds gate 6 / 0160 Oslo<br />
+                        hello@ona.travel<br />
+                        +47 930 67 175
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var doc_w = $(document).width();
+
+                if (doc_w < 601) {
+                    $('#fullpage').fullpage({
+                        anchors: ['Home', 'mobile-slider1', 'oppdatert', 'widjet', 'mobile-slider2', 'somlos', 'mobile-slider3', 'widjetnew', 'kontakt'],
+                        sectionsColor: ['#47bad1', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee'],
+                        scrollOverflow: false,
+                        autoScrolling: false,
+                        menu: '#navbar-nav-menu',
+                        //responsive: 900
+                    });
+                }
+                else {
+                    $('#section6').remove()
+                    $('#section7').remove()
+                    $('#section8').remove()
+                    $('#fullpage').fullpage({
+                        anchors: ['Home', 'oppdatert', 'widjet', 'somlos', 'widjetnew', 'kontakt'],
+                        sectionsColor: ['#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee', '#eeeeee'],
+                        scrollOverflow: false,
+                        autoScrolling: false,
+                        menu: '#navbar-nav-menu',
+                        //responsive: 600
+                    });
+
+                }
+
+
+                $("#carousel-1").owlCarousel({
+                    navigation: false,
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    singleItem: true,
+                });
+
+                $("#carousel-2").owlCarousel({
+                    navigation: false,
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    singleItem: true,
+                });
+
+
+                $('.owl-page-item').click(function() {
+                    var page = $(this).attr('data-slide');
+                    $("#carousel-2").trigger('owl.goTo', page * 1)
+                })
+
+                $('.owl-carousel .item').click(function() {
+                    var page = $(this).attr('data-slide');
+                    if (typeof page !== "undefined") {
+                        var carousel = $(this).attr('data-slider');
+                        $(carousel).trigger('owl.goTo', page * 1)
+                    }
+                });                
+                $('.bluebackround').fadeOut(1500);
+
+            });
+
+        </script>
+
+
+    </body>
+</html>
